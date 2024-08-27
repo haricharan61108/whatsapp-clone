@@ -7,6 +7,6 @@ const router=express.Router();
 router.post("/send",sendMsg)
 
 //route for checking all msgs
-router.get("/:user",getMsg)
+router.get("/:username",getMsg)
 
 export default router;
